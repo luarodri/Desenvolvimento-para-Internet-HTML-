@@ -4,16 +4,16 @@
 
     $nome = $_POST["nome"];
     $telefone = $_POST["telefone"];
-    $endereço = $_POST["endereço"];
+    $endereco = $_POST["endereco"];
 
-    if(empty($nome,$telefone,$endereço)){
+    if(empty($nome,$telefone,$endereco)){
         echo"<p> Os dados devem ser informados</p>";
 
     }
     else{
 
-    echo "<p> Olá $nome! Seu telefone é $telefone e seu endereço é $endereço</p>";
-    file_put_contents("dados.csv", "$nome,$telefone,$endereço\n", FILE_APPEND);
+    echo "<p> Olá $nome! Seu telefone é $telefone e seu endereço é $endereco</p>";
+    file_put_contents("dados.csv", "$nome,$telefone,$endereco\n", FILE_APPEND);
 
     }
 
