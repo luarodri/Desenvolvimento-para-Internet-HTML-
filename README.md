@@ -1,2 +1,2 @@
-# Web-2BINFO
-Repositório para tarefas de Web 
+# Web
+Repositório para tarefas de Web.
